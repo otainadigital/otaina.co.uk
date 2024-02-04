@@ -1,0 +1,15 @@
+url: "https://otaina.co.uk"
+baseurl: "/"
+title: "Otaina"
+
+postcss:
+  cache: false
+
+plugins:
+  - jekyll-postcss
+
+exclude:
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
